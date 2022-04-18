@@ -34,6 +34,7 @@ class FailureProbability {
     public int[] solution(int N, int[] stages) { 
         // int N : 스테이지의 개수
         // int[] stages : 각각의 유저가 몇번째 스테이지에 도달했는지 나타내는 stages 배열이다. 
+        // stages 길이는 유저의 명수가 되고 각 유저가 지금 도달한 어느스테이지까지 도달했는가를 나타내는것
         int[] answer = new int[N];  
         List<Fail>fails = new ArrayList<Fail>();
         int total = stages.length;
@@ -61,4 +62,3 @@ class FailureProbability {
     }
 }
 
-// stages 길이는 유저의 명수가 되고 각 유저가 지금 도달한 어느스테이지까지 도달했는가를 나타내는것
