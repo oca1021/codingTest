@@ -1,5 +1,9 @@
 import java.util.*;
 
+/**
+ *   writer : Jea
+ */
+
 class FailureProbability {
      //실패율을 저장하기 위해서 스테이지와 함께 저장을 해야하기 때문에
     class Fail {        
