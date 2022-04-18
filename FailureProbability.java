@@ -52,7 +52,7 @@ class FailureProbability {
             }
         }
         
-        
+        // 배열을 정렬
         Collections.sort(fails, comp);
         for (int i=0; i<N; ++i)
             answer[i] = fails.get(i).stage;
